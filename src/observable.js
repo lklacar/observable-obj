@@ -53,17 +53,3 @@ export function observable(obj, deep = false, onChange) {
 
     return observableObject;
 }
-
-/*
-const observableObj = observable({a: "b", b: {c: "D"}}, true, function (prop, oldValue, newValue) {
-    console.log({prop, oldValue, newValue});
-});
-
-observableObj.listen(function (prop, oldValue, newValue) {
-    console.log({prop, oldValue, newValue});
-});
-
-
-observableObj.a = "c";
-console.log(observableObj);
-*/
