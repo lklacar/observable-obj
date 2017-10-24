@@ -59,11 +59,11 @@ const observableObj = observable({a: "b", b: {c: "D"}}, true, function (prop, ol
     console.log({prop, oldValue, newValue});
 });
 
-observable.listen(function (prop, oldValue, newValue) {
+observableObj.listen(function (prop, oldValue, newValue) {
     console.log({prop, oldValue, newValue});
 });
 
 
-observable.a = "c";
-console.log(observable);
+observableObj.a = "c";
+console.log(observableObj);
 */

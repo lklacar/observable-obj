@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Luka\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js  --version
+
+PATH: 
+  C:\Users\Luka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Users\Luka\Desktop\Portable\apache-maven-3.3.9\bin;C:\Users\Luka\Desktop\Portable\Encryption;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP;C:\Program Files (x86)\Gource\cmd;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\GnuWin32\bin;C:\Dev-Cpp\MinGW64\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\OpenSSL-Win32\include;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\HashiCorp\Vagrant\bin;C:\Program Files\7-Zip;C:\Program Files (x86)\scala\bin;C:\Users\Luka\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Luka\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Luka\AppData\Local\Programs\Python\Python36-32;C:\Ruby23\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Users\Luka\AppData\Local\Microsoft\WindowsApps;C:\Users\Luka\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\Luka\AppData\Local\atom\bin;C:\Users\Luka\Desktop\ffmpeg-20170615-bc40674-win64-static\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Users\Luka\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\Programs\spring-roo-2.0.0.RC2\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  0.20.3
+
+Node version: 
+  8.7.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "observable-obj",
+    "version": "1.0.0",
+    "description": "Highly performant observable objects for javascript.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Luka Klacar",
+    "license": "ISC",
+    "repository": "https://github.com/lklacar/observable-obj"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\Luka\AppData\Roaming\npm\node_modules\yarn\lib\reporters\console\console-reporter.js:199:29)
+      at C:\Users\Luka\AppData\Roaming\npm\node_modules\yarn\lib\cli\commands\version.js:60:35
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Luka\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+      at C:\Users\Luka\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+      at <anonymous>
